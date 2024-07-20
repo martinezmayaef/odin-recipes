@@ -1,16 +1,27 @@
 * {
-    background-color: rgb(17 24 39);
-    color: #d1d5db;
+    background-color: #3e362e;
+    color: #ac8968;
     font-family: 'Courier New', Courier, monospace;
 }
 body {
     width: 50%;
     margin: 20px 25% 0 25%;
 }
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-button {
+    width: 60px;
+    height: 40px;
+    margin: auto;
+}
 .title {
     text-align: center;
-    color: #f1b035;
+    color: #865d36;
     font-size: 35px;
+    margin: -35px auto 0 auto;
 }
 .image {
     display: block;
@@ -18,5 +29,5 @@ body {
     margin-right: auto;
 }
 h2 {
-    color: #516a8f;
+    color: #a69080;
 }
